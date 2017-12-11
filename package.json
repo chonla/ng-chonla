@@ -1,0 +1,19 @@
+{
+  "name": "ng-chonla",
+  "version": "1.0.0",
+  "description": "Create angular lib and publish to npm",
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "html": "copyfiles component/*.html dist/"
+  },
+  "author": "Chonlasith Jucksriporn",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/core": "^5.1.0",
+    "rxjs": "^5.5.5",
+    "zone.js": "^0.8.18"
+  },
+  "devDependencies": {
+    "copyfiles": "^1.2.0"
+  }
+}
